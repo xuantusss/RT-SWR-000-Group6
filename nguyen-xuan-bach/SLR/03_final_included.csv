@@ -1,0 +1,12 @@
+Title,Authors,Year,DOI,Database,String,v1_decision,v1_reason,v2_decision,v2_reason
+"CoT Prompting for R2C Traceability","Wang et al.",2025,10.1109/APSEC66846.2025.00083,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: CoT+LLM on iTrust/eTour with MAP results
+"LiSSA: RAG-based TLR","Fuchß et al.",2025,10.1109/ICSE55347.2025.00186,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: RAG+LLM for req-to-code with F1 results
+"HGTRTracer: LLM + GNN for TLR","Jin et al.",2025,10.1109/APSEC66846.2025.00070,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: LLM+GNN for req-to-code with F1 results
+"Requirements Classification for TLR","Hey et al.",2024,10.1109/RE59067.2024.00024,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: LLM classification + FTLR baseline
+"LLM Zero-Shot Traceability Security Req","Hassine",2024,10.1145/3661167.3661213,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: GPT-3.5 zero-shot traceability with results
+"GraphRAG Dual-Path RC-TLR","Zhao & Xu",2026,10.3390/info17060541,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: GraphRAG zero-shot RC-TLR with precision/recall
+"Empirical Study SOTA RC-TLR","Ngo et al.",2024,10.1016/j.jss.2024.112056,Semantic Scholar,B,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: 6 IR methods on CoEST datasets with MAP/F1
+"Data Balancing ML-based TLR","Wang et al.",2023,10.1109/IJCNN54540.2023.10191386,IEEE,B,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: ML+IR on CoEST 7 datasets with precision/recall
+"Exploiting POS for Req Traceability","Ali et al.",2019,10.1016/j.infsof.2018.09.009,Semantic Scholar,B,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: IR+POS baseline comparison with F1
+"Combining ML + Logical Reasoning TLR","Li et al.",2020,10.3390/app10207253,Semantic Scholar,B,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: ML+IR hybrid with precision/recall results
+"TLR-KRL Knowledge Representation","Zhao et al.",2020,10.1109/AIRE51212.2020.00010,IEEE,C,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: KRL on eTour/iTrust/Clinic datasets
