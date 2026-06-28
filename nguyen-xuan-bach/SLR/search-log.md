@@ -36,7 +36,7 @@ AND ("traceability")
 ## Tổng hợp
 | | Số paper |
 |--|---------|
-| Tổng trước dedup | |
+| Tổng trước dedup |377 |
 | Sau dedup | |
 | Sau screening V1 | |
 | Final included | |
