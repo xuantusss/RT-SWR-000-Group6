@@ -31,7 +31,7 @@ AND ("traceability")
 
 | Database | Ngày | Số kết quả | Sau dedup |
 |----------|------|------------|-----------|
-| IEEE Xplore | | | |
+| IEEE Xplore | 27|17 | |
 | ACM DL | | | |
 | Semantic Scholar | | | |
 
