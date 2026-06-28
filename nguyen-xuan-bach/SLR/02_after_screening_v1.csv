@@ -1,0 +1,16 @@
+Title,Authors,Year,DOI,Database,String,v1_decision,v1_reason
+"CoT Prompting for R2C Traceability","Wang et al.",2025,10.1109/APSEC66846.2025.00083,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"LiSSA: RAG-based TLR","Fuchß et al.",2025,10.1109/ICSE55347.2025.00186,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"HGTRTracer: LLM + GNN for TLR","Jin et al.",2025,10.1109/APSEC66846.2025.00070,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"Requirements Classification for TLR","Hey et al.",2024,10.1109/RE59067.2024.00024,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"LLM Zero-Shot Traceability Security Req","Hassine",2024,10.1145/3661167.3661213,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E
+"GraphRAG Dual-Path RC-TLR","Zhao & Xu",2026,10.3390/info17060541,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E
+"Empirical Study SOTA RC-TLR","Ngo et al.",2024,10.1016/j.jss.2024.112056,Semantic Scholar,B,INCLUDE,IC-P IC-I IC-E
+"Data Balancing ML-based TLR","Wang et al.",2023,10.1109/IJCNN54540.2023.10191386,IEEE,B,INCLUDE,IC-P IC-I IC-E
+"Exploiting POS for Req Traceability","Ali et al.",2019,10.1016/j.infsof.2018.09.009,Semantic Scholar,B,INCLUDE,IC-P IC-I IC-E
+"Combining ML + Logical Reasoning TLR","Li et al.",2020,10.3390/app10207253,Semantic Scholar,B,INCLUDE,IC-P IC-I IC-E
+"Multi-Objective IR NSGA-II TLR","Rodriguez & Carver",2020,10.1109/EIT48999.2020.9208233,Semantic Scholar,B,EXCLUDE,EC-N: optimization focus không phải req-to-code
+"TLR-KRL Knowledge Representation","Zhao et al.",2020,10.1109/AIRE51212.2020.00010,IEEE,C,INCLUDE,IC-P IC-I IC-E
+"Eye-tracking + LSI Traceability","Ali et al.",2012,10.1109/ICSM.2012.6405271,IEEE,C,EXCLUDE,EC-Y: 2012 < 2019
+"Refactoring for Traceability","Faiz et al.",2016,10.1109/QUATIC.2016.012,IEEE,C,EXCLUDE,EC-Y: 2016 < 2019
+"Dynamic Integration Structural Co-change","Jyoti & Chhabra",2017,10.1007/978-981-10-5780-9_10,Semantic Scholar,B,EXCLUDE,EC-Y: 2017 < 2019
