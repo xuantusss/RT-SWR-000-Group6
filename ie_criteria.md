@@ -1,4 +1,4 @@
-nguyen-van-a/SLR/ie_criteria.md
+nguyen-xuan-bach/SLR/ie_criteria.md
 # Inclusion/Exclusion Criteria — Traceability Link Generation
 
 ## Inclusion Criteria (IC)
