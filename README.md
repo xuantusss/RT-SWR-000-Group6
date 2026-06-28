@@ -1,12 +1,19 @@
-# RT-SWR-000-Group6
-Topic:How effectively does GPT-4 zero-shot prompting generate class-level requirement-to-source-code traceability links in software projects, compared to IR-based automated methods (VSM, LSI, BM25) on CoEST public benchmark datasets?
+# GPT-4 Zero-Shot vs IR-Based Requirement-to-Code Traceability
 
+**Topic:** RT-SWR-000  
+**Môn:** SWR302 — Research-Based Learning  
+**Nhóm:** Group6 — FALL26
+**Thành viên:**
+- Nguyễn Xuân Bách - SE203114 (PL)
+- Trần Dương Minh Duy - SE203215 (???)
+- Nguyễn Trần Thái Duy Anh - SE205055 (???)
+- Vũ Lộc - SE182231 (???)
 
-SWR302 – Research-Based Learning
-Group - Group6 
-Member: Nguyễn Xuân Bách - SE203114
-        Trần Dương Minh Duy- SE203215
-        Nguyễn Trần Thái Duy Anh- SE205055
-        Vũ Lộc - SE182231
-Lecture - L.T.Q.Chi
+**GV hướng dẫn:** L.T.Q.Chi
 
+## Tiến độ
+- [ ] RBL-1: Tìm paper (Tuần 3–4)
+- [ ] RBL-2: Phân tích GAP (Tuần 5)
+- [ ] RBL-3: Proposal (Tuần 5–6)
+- [ ] RBL-4: Thực nghiệm (Tuần 7–8)
+- [ ] RBL-5: Báo cáo & Trình bày (Tuần 9–10)
