@@ -33,7 +33,7 @@ AND ("traceability")
 |----------|------|------------|-----------|
 | IEEE Xplore | 28/6/2026|17 | |
 | ACM DL |28/6/2026 |86 | |
-| Semantic Scholar | | | |
+| Semantic Scholar |28/6/2026 |24 | |
 
 ## Tổng hợp
 | | Số paper |
