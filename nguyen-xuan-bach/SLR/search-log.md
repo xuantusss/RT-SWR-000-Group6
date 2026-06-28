@@ -1,5 +1,3 @@
-# Search Log — Traceability Link Generation
-
 ## String A — LLM + Traceability
 **Query:**
 ("requirements traceability" OR "traceability link recovery") 
@@ -8,9 +6,9 @@ AND ("source code" OR "code artifact")
 
 | Database | Ngày | Số kết quả | Sau dedup |
 |----------|------|------------|-----------|
-| IEEE Xplore | | | |
-| ACM DL | | | |
-| Semantic Scholar | | | |
+| IEEE Xplore | 28/06/2026 | 5 | |
+| ACM DL | 28/06/2026 | 56 | |
+| Semantic Scholar | 28/06/2026 | 5 | |
 
 ## String B — IR-based Traceability
 **Query:**
@@ -20,9 +18,9 @@ AND ("software artifact")
 
 | Database | Ngày | Số kết quả | Sau dedup |
 |----------|------|------------|-----------|
-| IEEE Xplore | | | |
-| ACM DL | | | |
-| Semantic Scholar | | | |
+| IEEE Xplore | 28/06/2026 | 29 | |
+| ACM DL | 28/06/2026 | 29 | |
+| Semantic Scholar | 28/06/2026 | 126 | |
 
 ## String C — CoEST Benchmark
 **Query:**
