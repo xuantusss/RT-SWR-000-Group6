@@ -1,43 +1,17 @@
-
-## String A — LLM + Traceability
+## String A — IR Methods + Metrics
 **Query:**
-("requirements traceability" OR "traceability link recovery") 
-AND ("LLM" OR "GPT" OR "large language model") 
-AND ("source code" OR "code artifact")
+("VSM" OR "LSI" OR "BM25" OR "TF-IDF") 
+AND ("requirements traceability" OR "trace link recovery")
+AND ("precision" OR "recall" OR "MAP" OR "F1")
 
-| Database | Ngày | Số kết quả | Sau dedup |
-|----------|------|------------|-----------|
-| IEEE Xplore | 28/06/2026 | 5 | |
-| ACM DL | 28/06/2026 | 56 | |
-| Semantic Scholar | 28/06/2026 | 5 | |
-
-## String B — IR-based Traceability
+## String B — IR + CoEST
 **Query:**
-("requirements traceability" OR "trace link") 
-AND ("VSM" OR "LSI" OR "BM25" OR "information retrieval") 
-AND ("software artifact")
+("requirements traceability" OR "trace link")
+AND ("information retrieval" OR "VSM" OR "LSI" OR "BM25")
+AND ("iTrust" OR "eTour" OR "EasyClinic" OR "CoEST")
 
-| Database | Ngày | Số kết quả | Sau dedup |
-|----------|------|------------|-----------|
-| IEEE Xplore | 28/06/2026 | 29 | |
-| ACM DL | 28/06/2026 | 29 | |
-| Semantic Scholar | 28/06/2026 | 126 | |
-
-## String C — CoEST Benchmark
+## String C — IR Baseline Comparison
 **Query:**
-("CoEST" OR "iTrust" OR "eTour" OR "EasyClinic") 
-AND ("traceability")
-
-| Database | Ngày | Số kết quả | Sau dedup |
-|----------|------|------------|-----------|
-| IEEE Xplore | 28/6/2026|17 | |
-| ACM DL |28/6/2026 |86 | |
-| Semantic Scholar |28/6/2026 |24 | |
-
-## Tổng hợp
-| | Số paper |
-|--|---------|
-| Tổng trước dedup |377 |
-| Sau dedup | |
-| Sau screening V1 | |
-| Final included | |
+("traceability link recovery" OR "trace link")
+AND ("baseline" OR "comparison" OR "evaluation")
+AND ("software artifact" OR "source code")
