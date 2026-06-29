@@ -1,1 +1,10 @@
-
+Title,Authors,Year,DOI,Database,String,v1_decision,v1_reason,v2_decision,v2_reason
+"IRRT: Automated TLR based on IR","Unknown et al.",2022,,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: IR-based tool with precision/recall results
+"Evaluating IR Models for Req Traceability","Unknown et al.",2021,,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: comparison VSM/LSI/BM25 with F1 results
+"Enhancing Unsupervised TLR Sequential Semantics","Unknown et al.",2019,,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: IR+semantic with precision/recall results
+"Comparison of IR Techniques for TLR","Rodriguez & Carver",2019,,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: direct comparison IR methods with results
+"MLTracer: Multi-Layered Gradient Boosting","Unknown et al.",2024,,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: ML+IR hybrid with F1 results
+"IR-Based Artificial Bee Colony for TLR","Unknown et al.",2020,,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: IR-based optimization with precision/recall
+"Enhancing Req-to-Code via CoT Prompting","Unknown et al.",2025,,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: LLM+CoT for req-to-code with results
+"Recovering Semantic Traceability using Features","Unknown et al.",2021,,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: IR+semantic features with results
+"Recovering and Visualizing TLR Object-oriented","Al-Msie'Deen",2023,,Semantic Scholar,A,INCLUDE,IC-P IC-I
