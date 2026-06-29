@@ -9,8 +9,8 @@ AND ("precision" OR "recall" OR "MAP" OR "F1")
 | Database | Ngày | Số kết quả | Sau dedup |
 |----------|------|------------|-----------|
 | IEEE Xplore | 28/06/2026 | 27 | |
-| ACM DL | | | |
-| Semantic Scholar | | | |
+| ACM DL |28/06/2026 |10 | |
+| Semantic Scholar |28/06/2026 | 10| |
 
 ## String B — IR + CoEST
 **Query:**
