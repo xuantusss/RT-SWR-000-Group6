@@ -2,7 +2,7 @@
 
 **Topic:** RT-SWR-000  
 **Môn:** SWR302 — Research-Based Learning  
-**Nhóm:** Group6 — FALL26
+**Nhóm:** Group6 — SU26
 **Thành viên:**
 - Nguyễn Xuân Bách - SE203114 (PL)
 - Trần Dương Minh Duy - SE203215 (???)
