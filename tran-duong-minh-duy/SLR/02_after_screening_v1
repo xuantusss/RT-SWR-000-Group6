@@ -1,1 +1,12 @@
-
+Title,Authors,Year,DOI,Database,String,v1_decision,v1_reason
+"IRRT: Automated TLR based on IR","Unknown et al.",2022,,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"Evaluating IR Models for Req Traceability","Unknown et al.",2021,,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"Enhancing Unsupervised TLR Sequential Semantics","Unknown et al.",2019,,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"Comparison of IR Techniques for TLR","Rodriguez & Carver",2019,,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"MLTracer: Multi-Layered Gradient Boosting","Unknown et al.",2024,,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"IR-Based Artificial Bee Colony for TLR","Unknown et al.",2020,,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"Enhancing Req-to-Code via CoT Prompting","Unknown et al.",2025,,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"Recovering Semantic Traceability using Features","Unknown et al.",2021,,IEEE,A,INCLUDE,IC-P IC-I IC-E
+"Recovering and Visualizing TLR Object-oriented","Al-Msie'Deen",2023,,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E
+"Fine-Grained Dependencies TLR Correctness","Preda et al.",2024,10.1145/3639478.3643091,ACM,A,INCLUDE,IC-P IC-I IC-E
+"Evaluating LLMs for Doc-to-Code TLR","Alor et al.",2025,10.1145/3819820,ACM,A,INCLUDE,IC-P IC-I IC-E
