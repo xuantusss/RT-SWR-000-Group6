@@ -20,9 +20,9 @@ AND ("iTrust" OR "eTour" OR "EasyClinic" OR "CoEST")
 
 | Database | Ngày | Số kết quả | Sau dedup |
 |----------|------|------------|-----------|
-| IEEE Xplore | | | |
-| ACM DL | | | |
-| Semantic Scholar | | | |
+| IEEE Xplore |28/06/2026 |5 | |
+| ACM DL |28/06/2026 |39 | |
+| Semantic Scholar |28/06/2026 | 1| |
 
 ## String C — IR Baseline Comparison
 **Query:**
@@ -32,9 +32,9 @@ AND ("software artifact" OR "source code")
 
 | Database | Ngày | Số kết quả | Sau dedup |
 |----------|------|------------|-----------|
-| IEEE Xplore | | | |
-| ACM DL | | | |
-| Semantic Scholar | | | |
+| IEEE Xplore |28/06/2026| 18| |
+| ACM DL |28/06/2026 | 180| |
+| Semantic Scholar |28/06/2026 |159 | |
 
 ## Tổng hợp
 | | Số paper |
