@@ -39,7 +39,7 @@ AND ("software artifact" OR "source code")
 ## Tổng hợp
 | | Số paper |
 |--|---------|
-| Tổng trước dedup | |
+| Tổng trước dedup |525 |
 | Sau dedup | |
 | Sau screening V1 | |
 | Final included | |
