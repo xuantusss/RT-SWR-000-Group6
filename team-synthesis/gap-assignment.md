@@ -1,6 +1,6 @@
 # GAP Assignment — RT-SWR-000-Group6
 
-Ngày: 02/07/2026
+Ngày: 01/07/2026
 Evidence table nhóm: N = 27 paper
 
 ## Phân công
