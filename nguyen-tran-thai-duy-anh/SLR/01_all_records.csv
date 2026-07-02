@@ -1,3 +1,9 @@
 Title,Authors,Year,DOI,Database,String
-"Example: GPT-4 for Zero-Shot Trace Link Recovery","Tran et al.",2023,"10.1145/example","ACM","A"
-"Example: BERT for Requirements Traceability on iTrust","Nguyen et al.",2022,"10.1109/example","IEEE","B"
+"LLM-based Requirements Traceability with Qualitative Coding","Shah et al.",2025,arXiv:2504.19384,Semantic Scholar,A
+"Enhancing R2C Traceability via Data Augmentation","Zhang et al.",2025,arXiv:2509.20149,Semantic Scholar,A
+"TLR via LLM + RAG Chain-of-Thought","Hey et al.",2025,10.1007/978-3-031-88531-0_27,Semantic Scholar,B
+"LLM-based TLR with Few-Shot Prompting","Bauch",2026,publikationen.bibliothek.kit.edu/1000192935,Semantic Scholar,B
+"TraceLLM: 8 SOTA LLMs for Traceability","Alturayeif et al.",2026,arXiv:2602.01253,Semantic Scholar,A
+"T-BERT: BERT for Issue-Commit Traceability","Lin et al.",2021,arXiv:2102.04411,Semantic Scholar,B
+"Enhancing R2C Traceability via CoT Prompting","Wang et al.",2025,10.1109/APSEC66846.2025.00083,IEEE,C
+"Enhancing Req Traceability via Data Augmentation","Unknown",2025,,ACM,A
