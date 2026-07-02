@@ -1,0 +1,3 @@
+Title,Authors,Year,DOI,Database,String,v1_decision,v1_reason
+"Example: GPT-4 for Zero-Shot Trace Link Recovery","Tran et al.",2023,"10.1145/example","ACM","A","INCLUDE","IC-P IC-I IC-E"
+"Example: A Survey on Language Models","Smith et al.",2018,"10.1109/example2","IEEE","B","EXCLUDE","EC-Y: 2018 < 2019"

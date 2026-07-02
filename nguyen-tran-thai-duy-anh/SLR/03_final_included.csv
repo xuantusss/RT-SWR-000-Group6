@@ -1,0 +1,3 @@
+Title,Authors,Year,DOI,Database,String,v1_decision,v1_reason,v2_decision,v2_reason
+"Example: GPT-4 for Zero-Shot Trace Link Recovery","Tran et al.",2023,"10.1145/example","ACM","A","INCLUDE","IC-P IC-I IC-E","INCLUDE","Full-text confirmed: GPT-4 with zero-shot on iTrust, reports F1"
+"Example: BERT for Requirements Traceability on iTrust","Nguyen et al.",2022,"10.1109/example","IEEE","B","INCLUDE","IC-P IC-I IC-E","EXCLUDE","EC-A: paywalled, không tải được full-text"

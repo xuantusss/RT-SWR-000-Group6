@@ -1,0 +1,12 @@
+# Evidence Table - Nguyễn Trần Thái Duy Anh
+
+| Paper | Tool/LLM | Dataset | Metric | Kết quả | Code | Hạn chế |
+|-------|----------|---------|--------|---------|------|---------|
+| Shah et al. 2025 (RE Conference), arXiv:2504.19384 | GPT-4, Mistral, LLaMA-2 | RE qualitative datasets (interviews, surveys) | Cohen's Kappa | GPT-4 Kappa > 0.7 (deductive), zero-shot limited | N/A | Zero-shot performance remains limited; English-only |
+| Zhang et al. 2025, arXiv:2509.20149 | Gemini 1.5 Pro, Claude 3, GPT-3.5, GPT-4 | Requirement-to-code trace datasets | F1 Score | F1 improvement up to 28.59% | N/A | Data augmentation approach; generalization to other domains not tested |
+| Hey et al. 2025 (REFSQ), DOI: 10.1007/978-3-031-88531-0_27 | LLM + RAG (chain-of-thought prompting) | 6 benchmark datasets (inter-requirements) | Performance vs SOTA/baselines | Outperforms SOTA and baseline approaches | N/A | First empirical evidence; still needs more validation |
+| Bauch 2026 (KIT Thesis), publikationen.bibliothek.kit.edu/1000192935 | LLM-based TLR with few-shot prompting | Inter-requirements traceability datasets | TLR performance | Context improves TLR performance slightly; dynamic few-shot prompting | N/A | Context effect varies by project; additional requirements as context had slightly negative effect |
+| Alturayeif et al. 2026 (TraceLLM), arXiv:2602.01253 | 8 SOTA LLMs with prompt engineering | 4 benchmark datasets (aerospace, healthcare, requirements, design, test cases, regulations) | F2 Score | SOTA F2, outperforms IR baselines, fine-tuned models, prior LLM methods | N/A | Prompt engineering quality critically affects performance |
+| Lin et al. 2021 (T-BERT), arXiv:2102.04411 | BERT (Single-BERT, Siamese-BERT) | 3 OSS projects (issue-commit trace) | MAP (Mean Average Precision) | Best T-BERT outperforms VSM with 60.31% MAP improvement | N/A | Data sparsity; requires transfer learning |
+| Enhancing R2C Traceability via CoT, 2025 (APSEC), IEEE Xplore: 11396549 | LLM + Chain-of-Thought (CoT) prompting + SimCSE | iTrust, eTour, eANCI, SMOS (4 industrial datasets) | MAP | 125.47% MAP improvement over LSI; 63.2% over FTLR+; 62.13% over FQETLR+ | N/A | Low-coverage scenarios still challenging |
+| Enhancing Requirement Traceability through Data Augmentation, 2025 | LLM (GPT-4, etc.) zero-shot/few-shot | Requirement-to-code trace datasets | Performance metrics | Significant improvement with augmented data | N/A | Data augmentation approach; still needs more validation |

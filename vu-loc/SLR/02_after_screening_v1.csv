@@ -1,0 +1,13 @@
+Title,Authors,Year,DOI,Database,String,v1_decision,v1_reason
+Empirical Study of SOTA Requirement-to-Code Traceability,Ngo et al.,2024,10.1016/j.jss.2024.112056,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E
+Requirements Classification Dataset for Traceability Link Recovery Benchmark Datasets,Hey et al.,2023,10.5281/zenodo.7867845,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E
+Improving Traceability Link Recovery Using Fine-grained Requirements-to-Code Relations,Hey et al.,2021,10.1109/ICSME52107.2021.00034,IEEE,A,INCLUDE,IC-P IC-I IC-E
+Center of Excellence for Software Traceability: Trace Matrix Assessment,Hayes et al.,2012,N/A,Google Scholar,A,EXCLUDE,EC-Y: 2012 < 2019
+Data Balancing for Machine-Learning-Based Traceability Link Recovery,Wang et al.,2023,10.1109/IJCNN54540.2023.10191386,IEEE,B,INCLUDE,IC-P IC-I IC-E
+TLR-KRL: A Knowledge Representation Learning Approach for Traceability Link Recovery,Zhao et al.,2020,10.1109/AIRE51212.2020.00010,IEEE,B,INCLUDE,IC-P IC-I IC-E
+Combining Machine Learning and Logical Reasoning for Traceability Link Recovery,Li et al.,2020,10.3390/app10207253,Semantic Scholar,B,INCLUDE,IC-P IC-I IC-E
+GraphRAG-Based Dual-Path Requirement-Code Traceability Link Recovery,Zhao & Xu,2026,10.3390/info17060541,Semantic Scholar,C,INCLUDE,IC-P IC-I IC-E
+Requirements Classification for Traceability Link Recovery,Hey et al.,2024,10.1109/RE59067.2024.00024,IEEE,C,INCLUDE,IC-P IC-I IC-E
+Eye-Tracking Study for LSI Traceability,Ali et al.,2012,10.1109/ICSM.2012.6405271,IEEE,C,EXCLUDE,EC-Y: 2012 < 2019
+Multi-Objective Information Retrieval for Traceability,Rodriguez & Carver,2020,10.1109/EIT48999.2020.9208233,IEEE,C,INCLUDE,IC-P IC-I IC-E
+Requirements Traceability in Agile Practice,Unknown,2021,N/A,ACM,C,EXCLUDE,"EC-N: practice discussion, no experiment"

@@ -1,0 +1,10 @@
+Title,Authors,Year,DOI,Database,String,v1_decision,v1_reason,v2_decision,v2_reason
+Empirical Study of SOTA Requirement-to-Code Traceability,Ngo et al.,2024,10.1016/j.jss.2024.112056,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: evaluates multiple methods across CoEST-style datasets
+Requirements Classification Dataset for Traceability Link Recovery Benchmark Datasets,Hey et al.,2023,10.5281/zenodo.7867845,Semantic Scholar,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: benchmark dataset artifact for traceability classification
+Improving Traceability Link Recovery Using Fine-grained Requirements-to-Code Relations,Hey et al.,2021,10.1109/ICSME52107.2021.00034,IEEE,A,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: iTrust/eTour-style datasets and F1/MAP evaluation
+Data Balancing for Machine-Learning-Based Traceability Link Recovery,Wang et al.,2023,10.1109/IJCNN54540.2023.10191386,IEEE,B,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: CoEST 7 datasets with precision/recall
+TLR-KRL: A Knowledge Representation Learning Approach for Traceability Link Recovery,Zhao et al.,2020,10.1109/AIRE51212.2020.00010,IEEE,B,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: eTour/eANCI/Clinic/iTrust evaluation
+Combining Machine Learning and Logical Reasoning for Traceability Link Recovery,Li et al.,2020,10.3390/app10207253,Semantic Scholar,B,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: multiple benchmark datasets and precision/recall
+GraphRAG-Based Dual-Path Requirement-Code Traceability Link Recovery,Zhao & Xu,2026,10.3390/info17060541,Semantic Scholar,C,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: compares against IR baselines on RC-TLR datasets
+Requirements Classification for Traceability Link Recovery,Hey et al.,2024,10.1109/RE59067.2024.00024,IEEE,C,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: benchmark-based classification and traceability results
+Multi-Objective Information Retrieval for Traceability,Rodriguez & Carver,2020,10.1109/EIT48999.2020.9208233,IEEE,C,INCLUDE,IC-P IC-I IC-E,INCLUDE,Full-text confirmed: baseline/evaluation focus with MAP/precision
