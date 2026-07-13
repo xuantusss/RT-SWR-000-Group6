@@ -121,3 +121,47 @@ chưa được định nghĩa và đo trong bất kỳ paper nào
 - [x] Mỗi thành viên đồng ý với GAP được phân công
 - [x] Mỗi GAP justify cho ít nhất 1 RQ trong proposal
 - [x] Tất cả GAP đều feasible trong thời gian còn lại
+
+
+## Giải trình overlap cột nguồn (Minh Duy & Vũ Lộc)
+
+Cả 2 GAP đều trỏ về cột **Metric** trong evidence table, nhưng nhóm 
+xác nhận đây không phải GAP trùng lặp. Lý do:
+
+### Tại sao chấp nhận overlap này (tại sao làm)
+
+Cột Metric trong evidence table chứa 2 loại thiếu sót độc lập nhau:
+
+1. **Thiếu sự thống nhất giữa các metric đã có** (GAP của Minh Duy):
+   27 paper dùng metric khác nhau (MAP, F1, Precision/Recall, Cohen's 
+   Kappa, F2 Score...) nhưng không paper nào dùng MAP@10 trên đủ 3 
+   project CoEST → đây là vấn đề "thiếu benchmark thống nhất giữa 
+   các metric IR truyền thống".
+
+2. **Thiếu một loại metric hoàn toàn chưa tồn tại** (GAP của Vũ Lộc):
+   0/27 paper có bất kỳ metric nào đo hallucination rate — không phải 
+   vì các paper đo sai hay không thống nhất, mà vì **loại rủi ro này 
+   (link trỏ đến class không tồn tại) chỉ phát sinh khi dùng LLM**, 
+   và literature về LLM trong traceability còn quá mới nên chưa ai 
+   định nghĩa metric cho nó.
+
+→ Nói cách khác: Minh Duy làm về "metric đã có nhưng thiếu 
+chuẩn hóa", Vũ Lộc làm về "metric chưa hề tồn tại". Hai vấn đề 
+này không thể gộp thành 1 GAP vì hướng giải quyết khác nhau — 
+Minh Duy cần chạy lại 3 IR method trên cùng dataset để tạo 
+benchmark, còn Vũ Lộc cần định nghĩa và implement một metric 
+mới (hallucination rate) không có trong bất kỳ paper nào.
+
+### Tại sao không tách hoặc gộp lại (tại sao không làm)
+
+- **Không gộp thành 1 GAP:** vì mỗi GAP justify cho 1 RQ khác nhau 
+  trong proposal (Minh Duy → RQ1 baseline, Vũ Lộc → RQ3) — gộp lại 
+  sẽ làm proposal mất rõ ràng về scope của từng RQ.
+- **Không đổi cột nguồn của 1 trong 2 người sang cột khác:** vì cột 
+  Metric là cột duy nhất trong evidence table thực sự chứa bằng 
+  chứng cho cả 2 GAP này — ép sang cột khác (vd: Dataset, Hạn chế) 
+  sẽ làm bằng chứng yếu đi và không còn evidence-based đúng nghĩa.
+
+**Kết luận:** Overlap cột nguồn là hợp lệ vì bản chất 2 GAP khác 
+nhau (chuẩn hóa metric hiện có vs. tạo metric mới), không vi phạm 
+nguyên tắc "không có 2 GAP mô tả cùng 1 điều theo cách khác".
