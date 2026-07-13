@@ -49,4 +49,53 @@ Chưa có nghiên cứu nào kiểm tra LLM có generalize được across 3 pro
 
 **Bằng chứng từ evidence table:**
 - Chỉ 3/27 paper test đủ cả 3 project CoEST
-- Wang 2025 test 4
+- Wang 2025 test 4 dataset nhưng không đo variance giữa các project
+- Alturayeif 2026 test 4 benchmark nhưng không phải CoEST và không đo cross-project stability
+- 0/27 paper báo cáo standard deviation hoặc variance across projects
+
+**Tại sao chọn G3 làm GAP phụ:**
+- Trả lời câu hỏi thực tế quan trọng: LLM có đáng tin để deploy across projects không
+- Không cần dataset mới — chỉ cần chạy trên 3 project CoEST đã có
+- Hỗ trợ trực tiếp cho RQ2
+
+---
+
+### G4 — GAP-S: Hallucination Rate Chưa Được Định Nghĩa Và Đo
+
+**Mô tả:**
+LLM có thể sinh traceability link trỏ đến class không tồn tại trong codebase — rủi ro này chưa được đo trong bất kỳ paper nào.
+
+**Bằng chứng từ evidence table:**
+- 0/27 paper định nghĩa hoặc đo hallucination rate
+- IR-based methods không thể hallucinate vì chỉ rank class có sẵn → không ai cần đo trước đây
+- LLM mới xuất hiện trong traceability từ 2023-2024 → literature chưa kịp bắt kịp
+
+**Tại sao chọn G4 làm GAP phụ:**
+- **Contribution hoàn toàn mới** — nhóm đầu tiên đề xuất đo metric này trong traceability
+- Dễ đo — CoEST có ground truth sẵn, chỉ cần đếm link trỏ đến class không có trong danh sách
+- Không cần annotation tay
+- Hỗ trợ trực tiếp cho RQ3
+
+---
+
+## Tổng hợp lý do chọn 4 GAP này
+
+| GAP | Loại | Justify cho RQ | Feasibility |
+|-----|------|---------------|-------------|
+| G1 — GPT-4 zero-shot chưa test trên CoEST | GAP-T | RQ1 | ✅ Dataset public, API có sẵn |
+| G2 — Không có MAP@10 benchmark thống nhất | GAP-M | RQ1 | ✅ Tính từ ground truth CoEST |
+| G3 — Cross-project variance chưa đo | GAP-D | RQ2 | ✅ Chạy trên 3 project có sẵn |
+| G4 — Hallucination rate chưa định nghĩa | GAP-S | RQ3 | ✅ Đếm từ output GPT-4 |
+
+## Xác nhận không trùng
+- [x] G1 trỏ về cột Tool/LLM
+- [x] G2 trỏ về cột Metric
+- [x] G3 trỏ về cột Dataset
+- [x] G4 trỏ về cột Hạn chế
+- [x] Không có 2 GAP mô tả cùng 1 điều
+
+## GAP chính
+**G1** — vì directly addressable, practical value cao, và là missing baseline mà cả 3 RQ đều phụ thuộc vào
+
+## GAP phụ
+**G2, G3, G4** — bổ sung và làm đầy đủ cho G1
