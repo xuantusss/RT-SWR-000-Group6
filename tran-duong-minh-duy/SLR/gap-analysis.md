@@ -136,26 +136,3 @@ Ngo 2024 làm reference — MAP ~0.55–0.65 trên CoEST datasets
 - Chạy trên 3 project → đo cross-project variance của IR → 
   so sánh với LLM variance trong RQ2
 
-**Implementation plan sơ bộ:**
-
-```python
-# Bước 1: Load CoEST dataset
-requirements = load_requirements("iTrust")
-classes = load_classes("iTrust")
-ground_truth = load_ground_truth("iTrust")
-
-# Bước 2: Tính similarity
-vsm_scores = cosine_similarity(tfidf(requirements), tfidf(classes))
-lsi_scores = lsi_model.similarity(requirements, classes)
-bm25_scores = BM25(classes).get_scores(requirements)
-
-# Bước 3: Tính MAP@10
-map_vsm = mean_average_precision(vsm_scores, ground_truth, k=10)
-map_lsi = mean_average_precision(lsi_scores, ground_truth, k=10)
-map_bm25 = mean_average_precision(bm25_scores, ground_truth, k=10)
-```
-
-**Lý do chọn implementation này:**
-- Tái hiện đúng 3 methods theo literature
-- Cùng dataset → so sánh công bằng
-- MAP@10 → so sánh được với GPT-4 output
