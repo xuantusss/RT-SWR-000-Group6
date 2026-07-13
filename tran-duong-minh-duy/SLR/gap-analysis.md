@@ -30,7 +30,7 @@ approaches.
 | Ngo 2024 | ✅ | ✅ | ✅ | ❌ (thiếu EasyClinic) | ❌ |
 | Comparison IR 2019 | ✅ | ✅ | ✅ | ❌ (không CoEST) | ❌ |
 | Evaluating IR 2021 | ✅ | ✅ | ✅ | ❌ (không CoEST) | ❌ |
-| Hey 2021 | ❌ | ❌ | ❌ | ✅ | ❌ |
+| Hey 2021 | ✅ | ✅ | ✅ | ⚠️ (thiếu EasyClinic) | ❌ (dùng MAP, không MAP@10) |
 | **Nhóm đề xuất** | **✅** | **✅** | **✅** | **✅** | **✅** |
 
 ---
@@ -41,14 +41,14 @@ approaches.
 |-------|----------------------|---------|
 | Ngo 2024 | Có (một phần) | Dùng MAP nhưng không MAP@10, thiếu EasyClinic |
 | Comparison IR 2019 | Có (một phần) | So sánh VSM/LSI/BM25 nhưng không dùng CoEST |
-| Hey 2021 | Không | Dùng MAP nhưng chỉ fine-grained IR, không so sánh 3 methods |
+| Hey 2021 | Có (một phần) | So sánh cả VSM, LSI, BM25 làm baseline rồi mới đề xuất fine-grained IR cải tiến thêm — nhưng dùng MAP (không phải MAP@10) và thiếu EasyClinic (chỉ có iTrust, eTour, eANCI, SMOS) → chưa phủ đủ GAP về metric và dataset |
 | Wang 2023 | Không | ML classifiers, không phải VSM/LSI/BM25 |
 | Ali 2019 | Không | IR + POS, không so sánh 3 methods trên CoEST |
 | IRRT 2022 | Không | IR tool nhưng không so sánh VSM/LSI/BM25 trực tiếp |
 | Evaluating IR 2021 | Có (một phần) | So sánh IR methods nhưng không dùng CoEST |
 | MLTracer 2024 | Không | ML + IR hybrid, không phải VSM/LSI/BM25 thuần |
 
-**Phân tích chi tiết 3 paper "có một phần":**
+**Phân tích chi tiết 4 paper "có một phần":**
 
 - **Ngo 2024**: So sánh nhiều IR methods nhưng dùng MAP 
   (không phải MAP@10) và không test EasyClinic → thiếu 
@@ -61,8 +61,15 @@ approaches.
 - **Evaluating IR 2021**: So sánh IR methods nhưng trên 
   dataset khác CoEST → cùng vấn đề với Comparison IR 2019
 
+- **Hey 2021**: So sánh đúng cả 3 methods VSM/LSI/BM25 trên gần đủ CoEST 
+  (thiếu EasyClinic) — đây là phản chứng gần sát nhất, nhưng vẫn không 
+  phủ GAP hoàn toàn vì (1) dùng MAP thay vì MAP@10, và (2) thiếu 1/3 
+  project CoEST → GAP vẫn hợp lệ nhưng ở phạm vi hẹp hơn ("chưa ai làm 
+  đủ cả 3 project VÀ đúng MAP@10 cùng lúc")
+
 **Kết luận:** GAP xác nhận ✅ — không paper nào so sánh 
-VSM/LSI/BM25 trên cả 3 project CoEST với MAP@10
+VSM/LSI/BM25 trên cả 3 project CoEST (đủ cả iTrust, eTour, EasyClinic) 
+với MAP@10 làm metric chính
 
 ### Supplementary Validation
 
