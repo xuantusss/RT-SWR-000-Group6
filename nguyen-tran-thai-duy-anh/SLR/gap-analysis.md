@@ -30,10 +30,10 @@ cross-project variance.
 |-------|----------------------|---------|
 | Wang 2025 | Không | Test 4 dataset nhưng không đo cross-project variance |
 | Alturayeif 2026 | Không | 4 benchmark nhưng không phải CoEST, không đo variance |
-| Hey 2025 | Không | 6 benchmark nhưng inter-requirements, không req-to-code |
+| Hey 2025 | Không | 6 benchmark datasets (LLM + RAG + CoT), không đo cross-project variance — không phải inter-req traceability (đó là đặc điểm của Bauch 2026, không phải Hey 2025) |
 | Bauch 2026 | Có (một phần) | Đề cập context effect varies by project nhưng không đo variance |
 | Shah 2025 | Không | Chỉ 1 dataset, không cross-project |
-| Zhang 2025 | Không | Test generalization nhưng không trên CoEST |
+| Zhang 2025 | Không | Evidence table ghi rõ "Generalization not tested" — paper này chưa hề đo generalization, càng củng cố GAP |
 | Lin 2021 | Không | 3 OSS projects nhưng issue-commit, không req-to-code |
 | Ngo 2024 | Không | IR methods, không LLM |
 | Hey 2024 | Không | 4 dataset nhưng không đo variance |
