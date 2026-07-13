@@ -23,12 +23,18 @@ phức tạp hơn (CoT, RAG, few-shot) hoặc dùng dataset khác.
 
 **Pattern quan sát từ evidence table:**
 
-| Kỹ thuật | Số paper | Dùng CoEST | Zero-shot thuần |
+| Kỹ thuật | Số paper | Dùng CoEST (rõ ràng) | Zero-shot thuần |
 |----------|----------|-----------|----------------|
-| IR-based (VSM/LSI/BM25) | 10/27 | 8/10 | N/A |
-| LLM + CoT/RAG/few-shot | 9/27 | 2/9 | Không |
+| IR-based (VSM/LSI/BM25) | 10/27 | 2/10 (Ngo 2024, Hey 2021 — ghi rõ tên iTrust/eTour/eANCI/SMOS). 7 paper còn lại chỉ ghi "Multiple datasets" trong cột Dataset → không xác định được có phải CoEST hay không | N/A |
+| LLM + CoT/RAG/few-shot | 9/27 | 1/9 (chỉ Wang 2025 ghi rõ iTrust/eTour/eANCI/SMOS) | Không |
 | LLM zero-shot | 3/27 | 0/3 | Không trên CoEST |
 | **GPT-4 zero-shot thuần trên CoEST** | **0/27** | **0/27** | **← GAP** |
+
+*Ghi chú phương pháp: cột "Dùng CoEST" chỉ tính paper có cột Dataset 
+ghi rõ tên project CoEST (iTrust/eTour/eANCI/SMOS/EasyClinic). Paper 
+ghi chung chung "Multiple datasets" được xếp vào "không xác định", 
+không tính là "dùng CoEST" — tránh phóng đại con số khi không truy 
+được về dữ liệu cụ thể.*
 
 ---
 
@@ -120,8 +126,14 @@ không RAG, không few-shot — chưa paper nào trong SLR
 dùng cấu hình này trên CoEST
 
 **Baseline đề xuất:** 
-BM25 tốt nhất trong 3 IR methods theo Ngo 2024 
-(MAP ~0.55–0.65 trên CoEST)
+BM25 — tốt nhất trong 3 IR methods theo tham khảo sơ bộ từ 
+Ngo 2024 (MAP ước tính ~0.55–0.65 trên CoEST, dựa trên đọc 
+Table/Figure của paper gốc — **cần trích dẫn lại số trang/bảng 
+cụ thể khi viết proposal**, chưa verify chính xác 100%). 
+Nếu không xác nhận lại được con số chính xác từ Ngo 2024, 
+nhóm sẽ tự chạy BM25 (theo thực nghiệm G2 của Minh Duy) trên 
+đúng 3 project CoEST để có MAP@10 chính xác, thay vì dựa vào 
+số ước tính từ paper khác.
 
 **Mapping sang RQ:**
 - Dataset + LLM + Metric → trả lời RQ1
