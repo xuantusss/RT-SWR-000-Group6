@@ -135,4 +135,3 @@ số ước tính từ paper khác.
 - Chạy trên 3 project → trả lời RQ2
 - Đếm invalid class → trả lời RQ3
 
-**Prompt template sơ bộ (zero-shot):**
