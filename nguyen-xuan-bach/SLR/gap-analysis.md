@@ -30,11 +30,6 @@ phức tạp hơn (CoT, RAG, few-shot) hoặc dùng dataset khác.
 | LLM zero-shot | 3/27 | 0/3 | Không trên CoEST |
 | **GPT-4 zero-shot thuần trên CoEST** | **0/27** | **0/27** | **← GAP** |
 
-*Ghi chú phương pháp: cột "Dùng CoEST" chỉ tính paper có cột Dataset 
-ghi rõ tên project CoEST (iTrust/eTour/eANCI/SMOS/EasyClinic). Paper 
-ghi chung chung "Multiple datasets" được xếp vào "không xác định", 
-không tính là "dùng CoEST" — tránh phóng đại con số khi không truy 
-được về dữ liệu cụ thể.*
 
 ---
 
