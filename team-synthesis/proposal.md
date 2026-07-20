@@ -6,13 +6,12 @@
 **Nhóm:** RT-SWR-000-Group6  
 **Môn:** SWR302 — Research-Based Learning  
 **GV hướng dẫn:** L.T.Q.Chi  
-**Ngày:** 02/07/2026  
+**Ngày:** 16/07/2026  
 **Thành viên:**
-- Nguyễn Xuân Bách — SE203114 (PL/RW)
-- Trần Dương Minh Duy — SE203215 (DG)
-- Nguyễn Trần Thái Duy Anh — SE205055 (LR)
-- Vũ Lộc — SE182231 (MS)
-
+- Nguyễn Xuân Bách — SE203114  
+- Trần Dương Minh Duy — SE203215  
+- Nguyễn Trần Thái Duy Anh — SE205055  
+- Vũ Lộc — SE182231  
 ---
 
 ## Abstract
