@@ -162,13 +162,15 @@ CoEST dataset.
 
 ### 2.4 Tổng hợp GAP
 
+### 2.4 Tổng hợp GAP
+
 | Dimension | Literature | GAP |
 |-----------|-----------|-----|
 | Model | GPT-4 + CoT/RAG | GPT-4 zero-shot thuần |
 | Dataset | iTrust hoặc eTour (riêng lẻ) | Cả 3 CoEST cùng lúc |
 | Metric | MAP, F1, Precision, Recall | MAP@10 + hallucination rate |
 | Evaluation | Single project | Cross-project variance |
-
+| IR Baseline Coverage | Không paper nào đo đủ cả VSM, LSI, BM25 trên đủ 3 project CoEST bằng cùng 1 thước đo (paper gần nhất — Hey 2021 — thiếu EasyClinic và dùng MAP thường thay vì MAP@10) | Đo đầy đủ VSM, LSI, BM25 trên cả 3 project CoEST bằng MAP@10, làm baseline chuẩn cho RQ1 |
 ---
 
 ## 3. Research Questions và Hypotheses
